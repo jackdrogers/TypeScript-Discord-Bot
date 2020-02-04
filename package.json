@@ -1,0 +1,23 @@
+{
+  "name": "typescript-discord-bot",
+  "version": "1.0.0",
+  "description": "A TypeScript Discord Bot.",
+  "main": "init.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jackdrogers/TypeScript-Discord-Bot.git"
+  },
+  "author": "Jack Rogers",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jackdrogers/TypeScript-Discord-Bot/issues"
+  },
+  "homepage": "https://github.com/jackdrogers/TypeScript-Discord-Bot#readme",
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "typescript": "^3.7.5"
+  }
+}
