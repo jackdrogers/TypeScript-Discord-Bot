@@ -4,9 +4,17 @@
         "module": "commonjs",
         "declaration": true,
         "outDir": "dist",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
         "strict": true,
-        "types": ["node"],
-        "typeRoots": ["node_modules/@types"]
+        "types": [
+            "node"
+        ],
+        "typeRoots": [
+            "node_modules/@types"
+        ]
     },
-    "include": ["src"]
+    "include": [
+        "src"
+    ]
 }

@@ -1,7 +1,11 @@
-import { IBot } from './IBot';
+import { Message } from 'discord.js';
+import { Client } from '../models/Client';
+import { Permissions } from '../util/Permissions';
 
 export interface ICommand {
-    init(bot: IBot, dataPath: string): void;
-    permissions(): string[];
-    process(msg: string): Promise<void>;
+    init(client: Client): void;
+    permissions(): Permissions[];
+    process(message: Message, args: string[], client: Client): Promise<void>;
+    getName(): string;
+    getAliases(): string[];
 }
